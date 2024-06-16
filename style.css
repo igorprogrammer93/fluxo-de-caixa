@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo do corpo */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px 0;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: rgba(0, 110, 255, 0.534);
+    color: #fff;
+    width: 100%;
+    padding: 32px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Estilo do resumo */
+  .resume {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .resume div {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .resume .incomes {
+    color: #4caf50;
+  }
+  
+  .resume .expenses {
+    color: #f44336;
+  }
+  
+  .resume .total {
+    color: #2196f3;
+  }
+  
+  /* Estilo do novo item */
+  .newItem {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .newItem .divDesc,
+  .newItem .divAmount,
+  .newItem .divType {
+    margin-bottom: 15px;
+  }
+  
+  .newItem label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .newItem input,
+  .newItem select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  #btnNew {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  #btnNew:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Estilo da tabela */
+  .divTable {
+    background-color:#fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color:rgba(0, 110, 255, 0.534);
+    color: #fff;
+  }
+  
+  thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgba(128, 36, 0, 0.692);
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: rgba(62, 128, 0, 0.986);
+  }
+  tbody tr:hover {
+    background-color: #ffe0b2;
+  }
+  
+  tbody td {
+    padding: 15px;
+    font-size: 1rem;
+  }
+  
+  .columnAction {
+    text-align: center;
+  }
+  

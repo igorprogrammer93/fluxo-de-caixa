@@ -1,0 +1,11 @@
+// Armazenar dados no sessionStorage
+sessionStorage.setItem('chave', 'valor');
+
+// Obter dados do sessionStorage
+var valor = sessionStorage.getItem('chave');
+
+// Remover um item do sessionStorage
+sessionStorage.removeItem('chave');
+
+// Limpar todo o sessionStorage
+sessionStorage.clear();
